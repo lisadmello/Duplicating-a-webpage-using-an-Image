@@ -1,0 +1,325 @@
+body{
+/*    width: 100% auto;*/
+    width: 1280px;
+    height: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#upper{
+    width: auto;
+    height: 93%;
+    background-color: white;
+    text-align: center;
+}
+#lower{
+    width: auto;
+    height: 75%;
+    background-color: #171717;
+}
+.favourite{
+    padding-top: 70px; font-weight:400 ; letter-spacing: 5px; font-size: 16px;font-family: Helvetica, sans-serif;padding-bottom: 14px;
+}
+#rectangularbox{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: #171717;
+    width: 465px;
+    height: 290px;
+    margin-top: 3.6%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+#picture{
+    width: 1280px; 
+    height: 130px; 
+    background-image:url('http://cs-server.usc.edu:45678/hw/hw3/images/sayhello.png');
+    margin-left: auto;
+    margin-right: auto;
+}
+#number{
+/*    float: left;*/
+    font-weight: 500;
+    border-bottom: solid 6px white;
+    padding-bottom: -1px;
+    font-size: 66px;
+    margin-left: 118px;
+    margin-bottom: 70px;
+    letter-spacing: -2px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+div.para{
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    line-height: 25px;
+    font-weight: 500;
+}
+#thirteen{
+/*    float: right;*/
+    font-size: 130px;
+    margin-right: 302px;
+    margin-bottom: 30px;
+    padding: 0px;
+    letter-spacing: -1px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+table{
+    width: 10px;
+    height: 15px;
+    border-collapse: collapse;
+}
+#working{
+    letter-spacing: 5px;
+    font-family: Helvetica, sans-serif;
+    color: #ae882b;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 76px;
+}
+#break{
+    color: #0e0e0c;
+}
+button.getintouch{
+    width: 320px;
+    height: 66px;
+    border-width: 3.5px;
+    background-color: white;
+    border-color: #171717;
+    border-style: solid;
+    color: #171717;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 4px;
+}
+button.getintouch:visited{
+    color: black;
+}
+button.getintouch:active{
+    color: #171717;
+} 
+
+button.getintouch:hover{
+     background-color: #171717;
+     color: white;
+}
+#lowertop{
+    height: 35%;
+}
+.lowertop1{
+    height: 3%;
+}
+.keep_in_touch{
+    border-bottom: solid 1.4px #2d2d2c; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+#lowerbottom{
+    height: 62%;
+}
+.information_footer{
+    width: 90%;
+    margin-left: 50px;
+    height: auto;
+    padding: 0px;
+}
+.information_footer_column_title{
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 5px;
+    font-size: 19px;
+    color: #ae882b;
+    padding: 0px;
+/*    font-weight: 600;*/
+}
+.information_footer_column_location{
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 5.5px;
+    font-size: 16px;
+    color: white;
+    padding: 0px;
+/*    font-weight: 600;*/
+}
+.details{
+    height: 21px;
+    letter-spacing: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+/*    font-weight: 600;*/
+}
+.details_subject{
+    height: 21px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ae882b;
+/*    font-weight: 600;*/
+}
+a.contactus{
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-width: 2.5px;
+    background-color: #171717;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+}
+a.contactus:link{
+    color: white;
+    text-decoration:none;
+}
+a.contactus:visited{
+    color: white;
+    text-decoration:none;
+}
+a.contactus:hover {
+    background-color: white;
+    color: #171717;
+    text-decoration: none;
+}
+a.contactus:active,a.contactus:focus {
+    background-color: white;
+    color: #171717;
+    text-decoration: none;
+}
+
+table.contact{
+    width: 197px;
+    height: 20px;
+    padding: 0px;
+}
+.signup{
+    width: 250px;
+    height: 67px;
+    border-width: 3.5px;
+    background-color: #171717;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 5px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+}
+button.signup:visited{
+    color: none;
+}
+button.signup:active{
+    color: white;
+} 
+
+button.signup:hover{
+    background-color: white;
+    color: #171717;
+}
+.email_input{
+    border: solid 2.5px #171717;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    width: 330px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 10px;
+}
+input.email_input:-moz-placeholder { 
+    font-size: 20px;
+    font-family: Helvetica, sans-serif; 
+}
+input.email_input::-moz-placeholder { 
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+input.email_input:hover{
+    width: 327px;
+    height: 27px;
+    margin-right: 13px;
+}
+
+input.email_input:focus {
+    width: 327px;
+    height: 27px;
+    margin-right: 13px;
+}
+a.emaillink{
+    padding: 0px;
+    height:20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    color: white; 
+/*    font-weight: 600;*/
+}
+a.readlink:link {
+    color: white;
+    text-decoration:none;
+}
+a.readlink:visited{
+    color: white;
+    text-decoration:underline;
+}
+a.readlink:hover {
+    color: white;
+    text-decoration:underline;
+}
+a.readlink:focus {
+    color: white;
+    text-decoration:underline;
+}
+a.emaillink:link {
+    color: white;
+    text-decoration:underline;
+}
+a.emaillink:visited{
+    color: white;
+    text-decoration:none;
+}
+a.emaillink:hover {
+    color: white;
+    text-decoration:none;
+}
+a.emaillink:active {
+    color: white;
+    text-decoration:none;
+}
+a.hello:link,a.hello:visited,a.hello:hover,a.hello:active{
+    outline: none;
+    color: white;
+    text-decoration:none;
+}
+a.hello{
+    outline: 0;
+}
+a.number:link,a.number:visited,a.number:hover,a.number:active{
+    outline: none;
+    color: white;
+    text-decoration:none;
+}
+.Xelement{
+    font-size:20px;padding-top:113.5px;
+}
+.paraelement{
+    font-size:15px;
+}
